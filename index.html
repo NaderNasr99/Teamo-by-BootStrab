@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/plant.png">
+    <script src="js/test.js"></script>
+    <title>Teamo</title>
+</head>
+<body>
+    <!-- ========== Header ========== -->
+    <nav class=" header navbar navbar-expand-lg navbar-dark sticky-top ">
+        <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand logo-1" href="#"><img src="images/logo.png" alt="logo" style="width: 100px;"></a>
+        <a class="slogan-name navbar-brand text-light" href="#" style="font-weight: bold; border-right: 2px rgb(10, 155, 22) solid; padding-right: 10px;">GOOD</a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+         </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="font-weight: 500;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" >Links</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Our services
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <hr>
+              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-1 my-lg-0 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success my-1 my-sm-0 mr-2" type="submit">Go</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Log in</button>
+          </form>
+          </div>
+          </div>
+      </nav>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h2 class="modal-title">Login</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+                  We'll never share your email with anyone else.
+
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>
+      
+                <form>
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="switch1">
+                    <label class="custom-control-label" for="switch1">Remember me</label>
+                  </div>
+                </form>
+      
+                <button type="submit" class="btn btn-primary mt-1">Login</button>
+              </form>
+            </div>
+             <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ==========/Header================ -->
+
+
+<!-- ===========Main======== -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="1700">
+      <img src="images/main3.jpg" class="d-block w-100" alt="" style="height:600px ;">
+      <div class="carousel-caption">
+        <h1 class="cap-1">  Welcome  </h1>
+        <!-- <h4 class="cap2">to my </h4> -->
+        <!-- <h1 class="cap3">Website</h1> -->
+        <p class="carousel-p1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <a href="#"><button class=" btn btn-success">Learn More</button></a>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="1700">
+      <img src="images/main4.jpg" class="d-block w-100" alt="" style="height:600px ;">
+      <div class="carousel-caption ">
+        <h1 class="cap-1"> Spring </h1>
+        <!-- <h4 class="cap2">of </h4> -->
+        <!-- <h1 class="cap3">Life</h1> -->
+        <p class="carousel-p1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <a href="#"><button class=" btn btn-success">Learn More</button></a>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="1700">
+      <img src="images/main2.jpg" class="d-block w-100" alt="" style="height:600px ;">
+      <div class="carousel-caption ">
+        <h1 class="cap-1">Connect</h1>
+        <!-- <h4 class="cap2">With </h4> -->
+        <!-- <h1 class="cap3">Nature</h1> -->
+        <p class="carousel-p1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <a href="#"><button class=" btn btn-success">Learn More</button></a>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="1700">
+      <img src="images/main1.jpg" class="d-block w-100" alt="" style="height:600px ;">
+      <div class="carousel-caption ">
+        <h1 class="cap-1">Green</h1>
+        <!-- <h4 class="cap2">Your</h4> -->
+        <!-- <h1 class="cap3">Life</h1> -->
+        <p class="carousel-p1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <a href="#"><button class=" btn btn-success">Learn More</button></a>
+      </div>
+    </div>
+  </div>
+      <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon "></span>
+    </a>
+  </div>
+  <!-- ======================= -->
+  
+
+<!-- ===========Section-2========= -->
+  <div class="p-5  text-light" style="background-color: #2b463c;">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-success">See Profile</a>
+    </div>
+  </div>
+  <hr>
+  <!-- ========= Accordion collapse ==========-->
+  <h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;">Description</h3>
+  <div class="accordion" id="accordionExample">
+    <div class="card collapse-card">
+      <div class="card-header card-header-col " id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Collapsible Group Item #1
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-info card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="card collapse-card">
+      <div class="card-header card-header-col" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Collapsible Group Item #2
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class=" card-info card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <div class="card collapse-card">
+      <div class="card-header card-header-col" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Collapsible Group Item #3
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class=" card-info card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- ========= /Accordion collapse ==========-->
+
+  <hr>
+  <!-- =========== Coding-section ============= -->
+
+  <h3 class="text-center text-light  pt-3 pb-3 mb-4 " style="background-color:#2b463c; "> Description</h3>
+  <div class="card  w-100 text-light" style="background-color: #2b463c;">
+    <div class="card-body">
+      <h3 class="card-title">Tides API Documentation <a class="here" href="#">here</a></h3>
+      <a href="#" data-toggle="tooltip" title="copy to clipboard" class="btn btn-outline-light">CopyCode</a> <br>
+
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+     
+      <div class="container">
+     <code class="blue"> const</code> axios = <code class="red"> require</code> (" <code class="green">axios</code> ");
+
+        <code class="blue"> const </code> options = {
+          method: '<code class="green"> GET</code> ',<br>
+          url: '<code class="green"> https://tides.p.rapidapi.com/tides</code>',<br>
+          params: {longitude: '<code class="green"> -2.097 ' </code> , latitude: '<code class="green"> 44.414' </code>, <br>
+           interval: '<code class="green"> 60 </code>', duration: '<code class="green"> 1440 </code> '}, <br>
+          headers: {'<code class="green"> X-RapidAPI-Key </code>': '<code class="green"> SIGN-UP-FOR-KEY</code> ', '<code class="green"> X-RapidAPI-Host</code> ': ' <code class="green"> tides.p.rapidapi.com' </code> } <br>
+        };      
+    </div>
+    </div>
+  </div>
+  <hr>
+  <!-- ================= -->
+  <h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;"> Description</h3>
+  <div class="card  w-100 text-light" style="background-color: #2b463c;">
+    <div class="card-body">
+      <h3 class="card-title">Tides API Documentation <a class="here" href="#">here</a></h3>
+      <a href="#" data-toggle="tooltip" title="copy to clipboard" class="btn btn-outline-light">CopyCode</a> <br>
+
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+     
+      <div class="container">
+     <code class="blue"> const</code> axios = <code class="red"> require</code> (" <code class="green">axios</code> ");
+
+        <code class="blue"> const </code> options = {
+          method: '<code class="green"> GET</code> ',<br>
+          url: '<code class="green"> https://tides.p.rapidapi.com/tides</code>',<br>
+          params: {longitude: '<code class="green"> -2.097 ' </code> , latitude: '<code class="green"> 44.414' </code>, <br>
+           interval: '<code class="green"> 60 </code>', duration: '<code class="green"> 1440 </code> '}, <br>
+          headers: {'<code class="green"> X-RapidAPI-Key </code>': '<code class="green"> SIGN-UP-FOR-KEY</code> ', '<code class="green"> X-RapidAPI-Host</code> ': ' <code class="green"> tides.p.rapidapi.com' </code> } <br>
+        };      
+    </div>
+    </div>
+  </div>
+  <hr>
+  <!-- ====================== -->
+  <h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;"> Description</h3>
+  <div class="card  w-100 text-light" style="background-color: #2b463c;">
+    <div class="card-body">
+      <h3 class="card-title">Tides API Documentation <a class="here" href="#">here</a></h3>
+      <a href="#" data-toggle="tooltip" title="copy to clipboard" class="btn btn-outline-light">CopyCode</a> <br>
+
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+     
+      <div class="container">
+     <code class="blue"> const</code> axios = <code class="red"> require</code> (" <code class="green">axios</code> ");
+        <code class="blue"> const </code> options = {
+          method: '<code class="green"> GET</code> ',<br>
+          url: '<code class="green"> https://tides.p.rapidapi.com/tides</code>',<br>
+          params: {longitude: '<code class="green"> -2.097 ' </code> , latitude: '<code class="green"> 44.414' </code>, <br>
+           interval: '<code class="green"> 60 </code>', duration: '<code class="green"> 1440 </code> '}, <br>
+          headers: {'<code class="green"> X-RapidAPI-Key </code>': '<code class="green"> SIGN-UP-FOR-KEY</code> ', '<code class="green"> X-RapidAPI-Host</code> ': ' <code class="green"> tides.p.rapidapi.com' </code> } <br>
+        };      
+    </div>
+    </div>
+  </div>
+  <hr>
+  <!-- ================section-img============= -->
+  <div class="container-fluid img1 mt-4 mb-5"></div>
+  <!-- ===================================== -->
+  <h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;">Description</h3>
+<!-- =========================================== -->
+<!-- =================card====================== -->
+<div class="container-fluid color">
+  <div class="row justify-content-around pb-4 ">
+   
+    <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s1.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn btn-success btn-card">explore more</a>
+      </div>
+    </div>
+    
+    <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s11.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn btn-success btn-card">explore more</a>
+      </div>
+    </div>
+    
+     <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s3.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn btn-success btn-card">explore more</a>
+      </div>
+    </div>
+   
+    <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s4.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn  btn-success btn-card">explore more</a>
+      </div>
+    </div>
+    
+     <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s5.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn btn-success btn-card">explore more</a>
+      </div>
+    </div>
+   
+    <div class="card text-light col-md-4 col-sm-6 col-lg-3 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s9.jpg" class="card-img" alt="" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn  btn-success btn-card">explore more</a>
+      </div>
+    </div>
+    
+    <div class="card text-light col-md-4 col-sm-6 col-lg-3 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <img src="images/s8.jpg" class="card-img" alt="" height="300px" >
+      <div class="card-body">
+        <h5 class="card-title">This is Card</h5>
+        <p class="card-text">one of our pic</p>
+        <a href="" class="btn btn-success btn-card">explore more</a>
+      </div>
+    </div>
+</div>
+</div>
+<!-- ================section-img============= -->
+<div class="container-fluid img2 mt-4 mb-5"></div>
+<!-- ===================================== -->
+<hr>
+<!-- ========================================= -->
+<h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;"> Thanks For</h3>
+<div class="container-fluid">
+  <div class="row justify-content-around pb-4 ">
+<div class=" card text-light mt-4 col-md-4 col-sm-6 col-lg-3 " style="width: 288px;background-color: #2b463c;">
+  <img src="images/islam.jpg" class="card-img" alt="" height="300px" >
+  <div class="card-body">
+    <h5 class="card-title">Eng.Islam</h5>
+  </div>
+</div>
+<!-- =============== -->
+<div class="card text-light  mt-4  col-md-4 col-sm-6 col-lg-3" style="width: 288px;background-color: #2b463c;">
+  <img src="images/Nader.jpg" class="card-img" alt="" height="300px" >
+  <div class="card-body">
+    <h5 class="card-title">Nader</h5>
+    
+  </div>
+</div>
+<!-- ================== -->
+<div class="card text-light mt-4 col-md-4 col-sm-6 col-lg-3" style="width: 288px;background-color: #2b463c;">
+  <img src="images/seaw.jpg" class="card-img" alt="" height="300px" >
+  <div class="card-body">
+    <h5 class="card-title">SEF Future</h5>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+<!-- ================================== -->
+<h3 class="text-center text-light  pt-3 pb-3 mb-4" style="background-color: #2b463c;"> Join Us</h3>
+<div class="container-fluid">
+  <div class="row justify-content-around pb-4 text-center	">
+   
+    <div class="card text-light col-md-4 col-sm-6 col-lg-2 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <div class="card-body">
+        <h5 class="card-title">Face book</h5>
+        <p class="card-text"><i class="fa-brands fa-facebook icon-1"></i></p>
+        <a href="#" class="here">explore more</a>
+      </div>
+    </div>
+
+    <div class="card text-light col-md-4 col-sm-6 col-lg-2 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <div class="card-body">
+        <h5 class="card-title">Twitter</h5>
+        <p class="card-text"><i class="fa-brands fa-twitter icon-1"></i></p>
+        <a href="#" class="here">explore more</a>
+      </div>
+    </div>
+
+    <div class="card text-light col-md-4 col-sm-6 col-lg-2 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <div class="card-body">
+        <h5 class="card-title">Instagram</h5>
+        <p class="card-text"><i class="fa-brands fa-instagram icon-1"></i></p>
+        <a href="#" class="here">explore more</a>
+      </div>
+    </div>
+
+
+    <div class=" card text-light col-md-4 col-sm-6 col-lg-2 m-1 mt-4 " style="width: 288px;background-color: #2b463c;">
+      <div class="card-body">
+        <h5 class="card-title">Linked in</h5>
+        <p class="card-text"><i class="fa-brands fa-linkedin icon-1"></i></p>
+        <a href="#" class="here">explore more</a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- ======================================= -->
+<!-- ============================footer================================== -->
+<footer class=" text-light mt-5 p-2 pb-5 " style="background-color: #2b463c;">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class="border-top ">
+        <p class="card-text"><i class="fa-solid fa-address-book icon-1"></i><h5>Our address</h5></p>
+        <hr class="border-top my-3">
+        <address>
+          <p>Tel : 000-000-000</p>
+          <p>Address : EGYPT</p>
+          <p>Fax : 000-000-000</p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top">
+        <p class="card-text"><i class="fa-solid fa-globe icon-1"></i><h5>Important links</h5></p>
+        <hr class="border-top my-3">
+          <p><a href="" target="_blank" class="here">Visit Us</a></p>
+          <p><a href="" target="_blank" class="here">Take a look</a></p>
+          <p><a href="" target="_blank" class="here">Your health is more important</a></p>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top">
+        <p class="card-text"><i class="fa-solid fa-list icon-1"></i><h5>Our services</h5></p>
+        <hr class="border-top">
+          <p>Serveices for all </p>
+          <p>Provide best serveices</p>
+          <p>you will be better than before</p>
+      </div>
+    </div>
+  </div>
+  <hr >
+  <span class="text-center d-block text-secondary">Copyright &copy; 2022 Nader Nasr Mohamed. All rights</span>
+  <hr >
+  </footer>
+  <!-- ============/footer================== -->
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
