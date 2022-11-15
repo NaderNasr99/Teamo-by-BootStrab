@@ -95,6 +95,14 @@ body{
     background-repeat: no-repeat;
     height: 250px;
 }
+.img2{
+    width: 100%;
+    background-image: url(../images/main3.jpg)  ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 250px;
+}
 /* ===================================== */
 
 
